@@ -1,105 +1,123 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--  Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="79b17438-4ee5-4a6c-8ada-62cb528d0899.jpg" href="imagens">
-    <title>Portfolio</title>
-   
+
+    <title>Estefany Silfa Portfolio</title>
 </head>
 
-<body>
+<body class="backfround">
 
-    <div class="navegator">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black shadow-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Eestefany Silfa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <h1>  Estefany Silfa </h1>
-        
-        <div>
-            <ul>
-                
-                    <a class="grow" href="#about"> About  </a>
-                    <a class="grow" href="#projects"> Project   </a>
-                    <a class="grow" href="#skils"> Skills </a>  
-                    <a class="grow" href="#conttact"> Contact </a>
-    
-               
-            </ul>
-             </div>
-    
-
-    </div>
-
-    <div class="background ">  
-           
-        <img src="./assets/images /F6889996-4D17-489E-9303-884A9CE845F9_1_105_c.jpeg" alt="Estefany">
-    </div>
-   
-
-    <header id="about" class= "about" >
-      
-        <div >
-   
-        <h2> Hello, I'm Estefany! </h2>
-           
-        <p class="hide"> I'm a dedicated, and dynamic front end developer. 
-            I'm passionate about incorporating continuous improvement to my career, expanding my knowledge and learning new things.
-
-        </p>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
+    <!-- jumbotron -->
+    <section class="jumbotron text-center">
+        <img src="./assets/images /55F9F6BB-B3C2-4815-9C5C-B4E5F4A76239_1_105_c.jpeg" alt="Estefany silfa" width="200"
+            class="rounded-circle img-thumbnail ">
+        <h1 class="display-4">Hello, I'm Estefany! </h1>
+        <p class="lead">Web developer</p>
+    </section>
 
-        
-       
-    </header>
-    <section class="content"> 
+    <!-- About -->
 
-        <div id="projects" class="projects"> 
-
-            <h3> Projects </h3>
-            <ul>
-           
-                    <a class="hide" href="https://esilfa.github.io/css-demo-site/"> css-demo-site      </a>
-                    <img class="grow" src="./assets/images /01-html-css-git-homework-demo.png" alt="css-demo-site">
-                
-            </ul>
+    <section id="about">
+        <div class="row text-center mb-3">
+            <div class="col">
+                <h2> About Me</h2>
+            </div>
 
         </div>
+        <div class="row justify-content-center fs-5">
+            <div class="col-7 text-center">
+                <p> am excited to introduce myself to the tech world. I believe coding is never-ending learning cycle in
+                    which hands-on learning is very important.
+                    I will love to have the opportunity to enhance my development Skills, my enthusiasm, ideas, and
+                    positive attitude.</p>
 
-        <div id="skills " class="skills">
-            <h3> Skills  </h3>
-            <ul>
-            <img class="grow" src="./assets/images /html.svg" alt="html">
-            <img class="grow" src="./assets/images /java.svg" alt="java">
-            <img class="grow" src="./assets/images /css.svg" alt="css">
-
-            </ul>
+            </div>
 
         </div>
-        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#b4b6b7" fill-opacity="1"
+                d="M0,160L24,170.7C48,181,96,203,144,197.3C192,192,240,160,288,160C336,160,384,192,432,208C480,224,528,224,576,218.7C624,213,672,203,720,186.7C768,171,816,149,864,122.7C912,96,960,64,1008,58.7C1056,53,1104,75,1152,101.3C1200,128,1248,160,1296,170.7C1344,181,1392,171,1416,165.3L1440,160L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z">
+            </path>
+        </svg>
 
     </section>
+    <!-- Projects -->
+    <section id="projects ">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h2>My Projects</h2>
+
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-4">
+                    <div class="card">
+                        <img src="/assets/images /project-2.png" class=card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        
+
     
+
+
+
+    </section>
+
+
+
+
+
+
 </body>
-    
 
-
-<footer id="conttact" class="footer" >
-    
-    <h2> Thank you! </h2>
-    <ul >
-            
-        <a class="grow" id="email" class="box1" href="mailto: ssilfa3@gmail.com">Email</a>
-    
-    
-        <a  class="grow" id="github"class="box1" href="https://github.com/Esilfa">Github</a>            
-    
-    
-        <a class="grow" id="linkedin" class="box1" href="https://www.linkedin.com/in/e-silfa/">LinkedIn</a>
-
-   
-
-</ul>
-
-
-    
-</footer>
 </html>
