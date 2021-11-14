@@ -1,7 +1,4 @@
-# portfolio
- https://esilfa.github.io/portfolio-draft/
- 
- ## User Story
+## User Story
 
 ```
 AS AN employer
@@ -28,12 +25,11 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
-
-<!--  -->
-https://github.com/Esilfa/portfolio-draft/settings/pages#:~:text=https%3A//esilfa.github.io/portfolio-draft/
 ```
 
 
+## Mock-Up
 
+The following image shows the web application's appearance:
 
-
+![portfolio demo](./assets/images/demo-img.png)

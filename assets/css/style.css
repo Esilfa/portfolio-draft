@@ -39,6 +39,7 @@ justify-content: center;
 .footer {
     background-color: #273036 ;
     padding: 40px ;
+    text-decoration: none;
 }
 
 /* #skils {
