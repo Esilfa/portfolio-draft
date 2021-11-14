@@ -1,10 +1,14 @@
 body {
    font-family: 'Source Code Pro', monospace;
+   justify-content: center;
+}
+.navbar{
+    background-color: #273036;
 }
 
 .jumbotron {
-    padding-top: 2rem ;
-    padding-bottom: 10px;
+    padding-top: 8rem ;
+    /* padding-bottom: 10px; */
     background-color: #b4b6b7;
     
     
@@ -15,13 +19,34 @@ body {
 #projects {
     background-color: #b4b6b7;
 
-}
-#skils {
-    margin: 30px;
-    right:500px;
-    height: 100px;
 
 }
+#contact {
+    background-color: #b4b6b7;
+}
+
+.social-icon {
+justify-content: center;
+    color:b black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 70px;
+    padding: 20px 20px;
+    border-radius: 50%;
+     
+    
+}
+.footer {
+    background-color: #273036 ;
+    padding: 40px ;
+}
+
+/* #skils {
+    margin: 30px;
+    right:500px;
+    height: 100px; */
+
+
 
 /* 
 .main{
